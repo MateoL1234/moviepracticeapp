@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Code', monospace;
+}
+
+body {
+    background-color: #1a1616;
+    color: #fff;
+}
+
+.App-header {
+    background-color: #343a40;
+    padding: 10px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+a {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.nav-item {
+    margin-top: 5px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-menu a {
+    color: #1a1616 !important;
+}
+
+.navbar-collapse {
+    flex-grow: 0.1 !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important
+  }
+
+  
+button {
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+}
+
+.bg-dark {
+    background-color: #131313 !important;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.nav-item select {
+    width: 50%;
+}
+
+.links {
+    text-decoration: none !important;
+}
+
+.searchForm {
+    width: 50%;
+    margin: 1rem;
+}
+
+h2 {
+    font-size: 1.2rem !important;
+}
+
+.buttons {
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    background-color: #f7fbff;
+}
+
+.buttons:hover {
+    color: #f7fbff;
+    background-color: #1a1616;
+    transition: all 0.5s;
+}
+
+.nav-item .profile-image {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 0 15px;
+}
+
+@media (min-width: 992px) {
+    a {
+        margin: 0 10px;
+    }
+}

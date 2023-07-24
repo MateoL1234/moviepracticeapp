@@ -1,0 +1,43 @@
+.create-user-form {
+  width: 270px;
+  max-width: 300px;
+  margin: 30px auto;
+}
+
+.create-user-form div {
+  margin-bottom: 10px;
+}
+
+.create-user-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.create-user-form input {
+  width: 100%;
+  padding: 5px;
+}
+
+.create-user-form select {
+  width: 100%;
+  padding: 5px;
+}
+
+.create-user-form .error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.buttons {
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+  background-color: rgb(247, 251, 255);
+}
+
+.buttons:hover {
+  color: rgb(247, 251, 255);
+  background-color: rgb(26, 22, 22);
+  transition: all .5s;
+}

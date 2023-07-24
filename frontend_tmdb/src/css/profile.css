@@ -1,0 +1,91 @@
+.favourites-info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    transition: .5s;
+}
+
+
+.favourites-info h2 {
+    color: #F9F9F9;
+    display: none;
+}
+
+.profileCard {
+    margin: 70px 20px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.profileCard .background-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.profileCard .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.699);
+    opacity: 0.8;
+    transition: .5s;
+}
+
+.profileCard:hover .overlay {
+    opacity: 1;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    transition: .5s;
+}
+
+.card:hover .movie-info,
+.profileCard:hover .movie-info {
+    opacity: 0;
+}
+
+
+@media (min-width: 992px) {
+
+    .card:hover .movie-info,
+    .profileCard:hover .movie-info,
+    .favourites-info:hover {
+        opacity: 1;
+    }
+
+    .favourites-info {
+        opacity: 0;
+    }
+
+    .favourites-info h2 {
+        display: block;
+    }
+
+    .movie-info h2 {
+        display: block;
+    }
+
+    .profileCard .overlay {
+        opacity: 0
+    }
+}

@@ -1,0 +1,67 @@
+.container {
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 2px 2px 15px rgba(252, 252, 252, 0.2);
+    margin: 20px auto !important;
+}
+
+.loading-container {
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto !important;
+}
+
+
+.container h3 {
+    font-size: 2rem !important;
+    font-weight: 900;
+}
+
+.container h5 {
+    font-size: 1.5rem !important;
+    font-weight: 900;
+
+}
+
+.container p {
+    font-size: 0.9rem !important;
+
+}
+
+.seasons {
+    display: flex;
+    align-items: center !important;
+    justify-content: space-around !important;
+    flex-wrap: wrap;
+}
+
+
+.alert-dismissible {
+    padding-right: 0rem !important;
+}
+
+.btn-close {
+    border-color: rgba(252, 252, 252, 0.2) !important;
+}
+
+@media (min-width: 768px) {
+    .container h3 {
+        font-size: 3rem !important;
+    }
+
+    .container h5 {
+        font-size: 2rem !important;
+    }
+
+    .container p {
+        font-size: 1.5rem !important;
+
+    }
+
+}
