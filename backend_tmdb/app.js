@@ -7,7 +7,7 @@ const port = process.env.PORT || 3032
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-const origin = ['https://mlmovieapp.netlify.app', "http://localhost:3000", "https://postman.com"]
+const origin = ['https://mlmovieapp.vercel.app', "http://localhost:3000"]
 app.use(cors({ origin: origin, credentials: true }));
 
 const userApiRoutes = require('./router');
